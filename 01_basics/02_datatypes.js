@@ -29,3 +29,34 @@ let state = null
 
 console.log(typeof undefined);
 console.log(typeof null);
+
+// Symbol
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId);
+
+// BigInt
+
+const bigNumber = 34567889527326737264343n
+
+console.log(typeof bigNumber);
+console.log(bigNumber);
+
+// Arrays
+
+const heros = ["shaktiman","nagraj","Palaksh"]
+
+// Objects
+
+let myObj = {
+    name: "Palaksh",
+    age: 20,
+}
+
+// Functions
+
+const myFunction = function(){
+    console.log("Hello World");
+}
